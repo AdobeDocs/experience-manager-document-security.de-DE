@@ -7,7 +7,7 @@ ht-degree: 96%
 ---
 # Mitwirken an der Dokumentation für AEM Document Security Extension for Microsoft Office
 
-Vielen Dank, dass Sie sich entschieden haben, zur Dokumentation für AEM Document Security Extension for Microsoft Office beizutragen! Adobe begrüßt Inhaltsbeiträge der gesamten Leser-Community sowie anderer Adobe-Mitarbeiter.
+Vielen Dank, dass Sie sich entschieden haben, zur Dokumentation für AEM Document Security Extension for Microsoft Office beizutragen! Adobe begrüßt Inhaltsbeiträge von der gesamten Lesergemeinschaft sowie von anderen Adobe-Mitarbeitern.
 
 In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können und welche Richtlinien zu befolgen sind, wenn Sie Ihre Beiträge vornehmen.
 

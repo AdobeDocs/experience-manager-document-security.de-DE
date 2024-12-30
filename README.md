@@ -7,10 +7,10 @@ ht-degree: 62%
 ---
 # Dokumentation für AEM Document Security Extension for Microsoft Office
 
-Das Repository für AEM Document Security Extension for Microsoft Office-Dokumentation.
+Die Dokumentation zum Repository für AEM Document Security Extension for Microsoft Office.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
 
 * [contributing.md](contributing.md) Ein Überblick darüber, wie Sie zur Dokumentation beitragen.
 * [guidelines.md](guidelines.md) Ein Überblick darüber, was in Beiträgen erwartet wird und wie Sie Ihre Beiträge zur Dokumentation zusammenstellen können.
-* [Verhaltenskodex.md](code-of-conduct.md) Ein Überblick über die Verhaltensstandards, die Adobe erwartet, wenn Sie zu dieser Dokumentation beitragen. Projekt.
+* [code-of-conduct.md](code-of-conduct.md) Für einen Überblick über die Verhaltensstandards, die Adobe erwartet, wenn Sie zu dieser Dokumentation beitragen. Projekt.
