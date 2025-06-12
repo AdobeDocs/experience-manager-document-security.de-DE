@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: 3b6a686966fb8d006bed8cc4a4bf5eebe0dfb030
+source-git-commit: 69abd3e49fcf79b8bf2a7f344abeeae250b1479f
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 100%
+source-wordcount: '2845'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,13 @@ AEM Document Security Extension for Microsoft Office unterstützt keine Plug-ins
 
 Stellen Sie sicher, dass die folgenden Mindestkonfigurationen für die Installation der Document Security Extension verwendet werden:
 
-* 32-Bit- oder 64-Bit-Versionen von Microsoft Windows 7 oder Windows 10 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
+* 32-Bit- oder 64-Bit-Versionen von Microsoft Office 2019 Professional Plus unter Microsoft Windows 11 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
+
+* 32-Bit- oder 64-Bit-Versionen von Microsoft Windows 10 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
+
   **Hinweis:** *Es wird erwartet, dass Document Security Extension for Microsoft Office auf Microsoft Surface-Geräten funktioniert.*
 
-* 32-Bit- oder 64-Bit-Versionen von Microsoft Office 2013, 2016, 2019 und Microsoft Office Desktop-Programmen, die als Teil von Office 365 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch oder Chinesisch (vereinfacht und traditionell) installiert sind.
+* 32-Bit- oder 64-Bit-Versionen von Office 2016, 2019 und Microsoft Office-Desktop-Programmen, die als Teil von Office 365 installiert wurden, in Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
 
   **Hinweis**: *AEM Document Security Extension for Microsoft Office unterstützt keine Plug-ins von Drittanbietern für Microsoft Office-Programme. Da Konflikte zwischen Plug-ins von Drittanbietern und dieser Erweiterung auftreten können, müssen Sie vor der Installation von Document Security Extension for Microsoft Office alle Plug-ins für Microsoft Office-Programme deinstallieren, die nicht von Adobe stammen. Adobe unterstützt Document Security Extension for Microsoft Office nicht, wenn Plug-ins von Drittanbietern installiert sind.*
 
