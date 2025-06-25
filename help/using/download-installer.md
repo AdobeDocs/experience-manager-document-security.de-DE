@@ -6,9 +6,9 @@ contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
 exl-id: 25d2f439-e6c9-4d0a-bbd1-91d0f00dc683
 source-git-commit: 265c81b4b424c96e1d53c962af39756ee43c443d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Mit Document Security Extension for Microsoft® Office-Software können Sie die 
 
 ## Systemanforderungen {#system-requirements}
 
-* 32-Bit- oder 64-Bit-Versionen von Microsoft® Office 2019 Professional Plus unter Microsoft® Windows 11
-* 32-Bit- oder 64-Bit-Versionen von Microsoft® Office 2016, Office 2019 oder Office-Desktop-Programmen, die als Teil von Office 365 unter Microsoft® Windows 10 installiert wurden
+* 32-Bit- oder 64-Bit-Versionen von Microsoft® Office 2019 Professional Plus unter Microsoft® Windows 11
+* 32-Bit- oder 64-Bit-Versionen von Microsoft® Office 2016, Office 2019 oder Office-Desktop-Anwendungen, die als Teil von Office 365 unter Microsoft® Windows 10 installiert wurden
 * Hinweis: Es wird erwartet, dass Document Security Extension für Microsoft® Office auf Microsoft® Surface-Geräten funktioniert.
 * Prozessor mit 1,3 GHz oder höher
 * 2 GB RAM
