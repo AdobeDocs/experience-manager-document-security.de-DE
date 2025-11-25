@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: 69abd3e49fcf79b8bf2a7f344abeeae250b1479f
-workflow-type: ht
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
+workflow-type: tm+mt
 source-wordcount: '2845'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,7 @@ Stellen Sie sicher, dass die folgenden Mindestkonfigurationen für die Installat
 
 * 32-Bit- oder 64-Bit-Versionen von Microsoft Office 2019 Professional Plus unter Microsoft Windows 11 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
 
-* 32-Bit- oder 64-Bit-Versionen von Microsoft Windows 10 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
+* 32-Bit- oder 64-Bit-Versionen von Microsoft Windows 10 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Brasilianisch, Portugiesisch, Koreanisch, Chinesisch (vereinfacht oder traditionell).
 
   **Hinweis:** *Es wird erwartet, dass Document Security Extension for Microsoft Office auf Microsoft Surface-Geräten funktioniert.*
 
@@ -173,7 +173,7 @@ For more information about how to edit Microsoft Windows&reg; Installer files us
    >
    >Üblicherweise wird derselbe Dateiname wie die ursprüngliche MSI-Datei verwendet (zum Beispiel `DocumentSecurityExtensionforMicrosoftOffice.msi`).
 
-## Konfigurieren der automatischen Anwendung einer Standardrichtlinie {#configuring-automatic-application-of-a-default-policy}
+## Automatische Anwendung einer Standardrichtlinie konfigurieren {#configuring-automatic-application-of-a-default-policy}
 
 Als Teil der Konfiguration können Sie die automatische Anwendung einer Standardrichtlinie konfigurieren, damit Document Security Extension für Microsoft Office jedes gespeicherte Dokument schützt.
 
@@ -182,13 +182,13 @@ Sie können eine der folgenden Optionen angeben:
 * Alle Dokumente mit einer Standardrichtlinie schützen.
 * Zulassen, dass Benutzende optional eine Datei in einem ungeschützten Format speichern können, wenn keine Server-Verbindung möglich ist. Diese Flexibilität ermöglicht es Ihnen, Fälle zu berücksichtigen, in denen Benutzer Dokumente erstellen, während sie vom Netzwerk getrennt sind (z. B. im Flugzeug).
 
-Nachdem Sie die Funktion „Richtlinie automatisch anwenden“ aktiviert haben, wird das Dokument in den folgenden Fällen mit der Standardrichtlinie geschützt:
+Nachdem Sie die Funktion für automatisch angewendete Richtlinien aktiviert haben, wird das Dokument in den folgenden Fällen mit der Standardrichtlinie geschützt:
 
 * Eine Benutzerin oder ein Benutzer bearbeitet und speichert ein neu erstelltes Dokument.
 * Eine Benutzerin oder ein Benutzer bearbeitet und speichert ein ungeschütztes Dokument.
 * Eine Benutzerin oder ein Benutzer öffnet eine Anwendung, die mit einem Standarddokument geöffnet wird, bearbeitet das Dokument und speichert es anschließend.
 
-### Konfigurieren der Funktion zum automatischen Anwenden von Richtlinien in der MSI-Datei {#configure-the-auto-apply-policy-feature-in-the-msi-file}
+### Konfigurieren der automatisch angewendeten Richtlinienfunktion in der MSI-Datei {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 Nehmen Sie zuerst eine Vorkonfiguration des Installationsprogramms vor, um auf den LiveCycle- oder AEM Forms-Server zu verweisen (wie zuvor in diesem Artikel beschrieben).
 
@@ -209,12 +209,12 @@ Nehmen Sie zuerst eine Vorkonfiguration des Installationsprogramms vor, um auf d
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
-   <td><p>Aktiviert oder deaktiviert die Funktion zum automatischen Anwenden von Richtlinien.</p> <p><code>1</code>: Aktivieren</p> <p>0: Deaktivieren</p> </td>
+   <td><p>Aktivieren oder Deaktivieren der Funktion für automatisch angewendete Richtlinien .</p> <p><code>1</code>: Aktivieren</p> <p>0: Deaktivieren</p> </td>
    <td><p>0</p> </td>
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
-   <td><p>Die Richtlinien-GUID, die beim Speichern neuer Dokumente verwendet werden soll. Dieser Wert gilt für die Funktion zum automatischen Anwenden von Richtlinien.</p> </td>
+   <td><p>Die Richtlinien-GUID, die beim Speichern neuer Dokumente verwendet werden soll. Dieser Wert gilt für die Funktion der automatisch angewendeten Richtlinie.</p> </td>
    <td><p>Hexadezimale Richtlinien-ID, wie sie auf dem RM-Server sichtbar ist</p> </td>
   </tr>
   <tr>
@@ -245,16 +245,16 @@ Nehmen Sie zuerst eine Vorkonfiguration des Installationsprogramms vor, um auf d
    >
    >Üblicherweise wird derselbe Dateiname wie die ursprüngliche MSI-Datei verwendet (zum Beispiel `DocumentSecurityExtensionforMicrosoftOffice.msi`).
 
-## Aktivieren des automatischen Schutzes neuer Dokumente {#enabling-automatic-protection-of-new-documents}
+## Automatisches Schützen neuer Dokumente aktivieren {#enabling-automatic-protection-of-new-documents}
 
-Administratorseitig kann die Möglichkeit zum automatischen Schutz jedes Dokuments, das eine Benutzerin oder ein Benutzer speichert, aktiviert werden. Die Admins konfigurieren die Funktion „Richtlinie automatisch anwenden“ im Installationsprogramm für Document Security Extension für Microsoft Office.
+Administratorseitig kann die Möglichkeit zum automatischen Schutz jedes Dokuments, das eine Benutzerin oder ein Benutzer speichert, aktiviert werden. Der Administrator konfiguriert die automatisch angewendete Richtlinienfunktion im Installationsprogramm für Document Security Extension für Microsoft Office.
 
-Wenn die Option zum automatischen Anwenden von Richtlinien aktiviert ist, werden alle benutzerseitig gespeicherten Dokumente mit der Standardrichtlinie geschützt. Diese Aktion gilt in folgenden Situationen:
+Wenn die automatisch angewendete Richtlinie aktiviert ist, werden alle Dokumente, die der Benutzer speichert, durch die Standardrichtlinie geschützt. Diese Aktion gilt in folgenden Situationen:
 
 * Wenn ein Benutzer ein neues Dokument erstellt, es bearbeitet und speichert.
 * Wenn ein Benutzer ein ungeschütztes Dokument öffnet, bearbeitet und speichert.
 
-Informationen zum Konfigurieren der automatischen Anwendung von Richtlinien finden Sie unter [Konfigurieren der automatischen Anwendung der Standardrichtlinie](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
+Informationen zum Konfigurieren der automatisch angewendeten Richtlinie finden Sie unter [Konfigurieren der automatischen Anwendung der Standardrichtlinie](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
 
 ## Aktivieren der Benutzeroberfläche ohne Menüband {#enable-ribbon-less-user-interface}
 

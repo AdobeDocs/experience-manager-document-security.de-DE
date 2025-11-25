@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
-source-git-commit: 6cf19ed9439e5be5a4c2e2fa2458879f37c25b96
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
 workflow-type: tm+mt
-source-wordcount: '6136'
-ht-degree: 100%
+source-wordcount: '6139'
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ Führen Sie zum Aktivieren der erweiterten Authentifizierung mit der standardmä
 1. Öffnen Sie die Admin-Benutzeroberfläche in AEM Forms.
 1. Navigieren Sie zu „Dienste“ > „Document Security“ > „Konfiguration“ > „Server-Konfiguration“.
 1. Aktivieren Sie die Option „Erweiterte Authentifizierung zulassen“.
-1. Geben Sie die standardmäßige URL für die Landingpage der erweiterten Authentifizierung an. Die standardmäßige URL lautet: http://localhost:8080/edc/extendedauthentication/welcome.jsp.
+1. Geben Sie die standardmäßige URL für die Landingpage der erweiterten Authentifizierung an. Die Standard-URL lautet http://localhost:8080/edc/extendedauthentication/welcome.jsp.
 
    Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -373,7 +373,7 @@ Wenn eine Funktion nicht verfügbar ist, sind der Befehlsname im Menü und die e
 
 Sie können richtliniengeschützte Dateien wie jede andere Datei öffnen. Wenn Sie noch nicht bei Document Security angemeldet waren, werden Sie dazu aufgefordert. Das heißt, wenn Sie nicht mit dem Internet verbunden sind und die Datei offline öffnen können. Wenn Sie den Anmeldevorgang abbrechen, wird der Zugriff verweigert.
 
-Wenn Sie nicht berechtigt sind, die Datei zu öffnen, werden Sie darüber informiert, dass der Zugriff verweigert wird. Wenn die Zugriffsrechte für die Datei entzogen wurden, werden Sie möglicherweise auch zu einer aktualisierten Version der Datei weitergeleitet, falls eine solche verfügbar ist. Wenn Sie eine richtliniengeschützte Datei nicht öffnen können, wenden Sie sich an den Herausgeber der Datei, um weitere Unterstützung zu erhalten.
+Wenn Sie nicht berechtigt sind, die Datei zu öffnen, werden Sie darüber informiert, dass der Zugriff verweigert wird. Wenn die Dateizugriffsberechtigungen widerrufen werden, können Sie auch zu einer aktualisierten Version der Datei weitergeleitet werden, sofern eine solche verfügbar ist. Wenn Sie eine richtliniengeschützte Datei nicht öffnen können, wenden Sie sich an den Herausgeber der Datei, um weitere Unterstützung zu erhalten.
 
 Wenn eine geschützte Datei geöffnet ist, gibt der in der Titelleiste auf den Dateinamen folgende Text an, dass die Datei von AEM Document Security geschützt wird.
 
@@ -407,13 +407,13 @@ Gehen Sie folgendermaßen vor:
 
 ### Speichern von Dokumenten, wenn die Richtlinie zum automatischen Anwenden aktiviert ist {#saving-documents-when-auto-apply-policy-is-enabled}
 
-Wenn Ihr Admin die Funktion zum automatischen Anwenden von Richtlinien aktiviert hat, werden alle Dokumente, die Sie erstellen oder bearbeiten, beim Speichern des Dokuments automatisch geschützt.
+Wenn Ihr Administrator die Funktion für automatisch angewendete Richtlinien aktiviert hat, werden alle Dokumente, die Sie erstellen oder bearbeiten, beim Speichern des Dokuments automatisch geschützt.
 
-Wenn die Richtlinie für die automatische Anwendung aktiviert ist, werden Sie von Document Security Extension für Microsoft® Office aufgefordert, sich beim Document Security-Server anzumelden. Geben Sie Ihren Benutzernamen und Ihr Passwort ein, damit der Server Sie authentifizieren kann. Wenn Sie die richtigen Anmeldeinformationen angegeben haben, wird das Dokument gespeichert und geschützt.
+Wenn die automatisch angewendete Richtlinie aktiviert ist, werden Sie von Document Security Extension für Microsoft® Office aufgefordert, sich beim Document Security-Server anzumelden. Geben Sie Ihren Benutzernamen und Ihr Passwort ein, damit der Server Sie authentifizieren kann. Wenn Sie die richtigen Anmeldeinformationen angegeben haben, wird das Dokument gespeichert und geschützt.
 
 >[!NOTE]
 >
->Wenn Sie sich nicht bei Document Security anmelden können, wird das Dokument möglicherweise gespeichert. Diese Situation hängt davon ab, wie Ihre Admins die Richtlinie zur automatischen Anwendung konfiguriert haben. Wenden Sie sich an den Administrator, um zu erfahren, wie Dokumente in diesem Fall behandelt werden.
+>Wenn Sie sich nicht bei Document Security anmelden können, wird das Dokument möglicherweise gespeichert. Diese Situation hängt davon ab, wie Ihr Administrator die automatisch angewendete Richtlinie konfiguriert hat. Wenden Sie sich an den Administrator, um zu erfahren, wie Dokumente in diesem Fall behandelt werden.
 
 ### Synchronisieren für den Offline-Zugriff {#synchronizing-for-offline-access}
 

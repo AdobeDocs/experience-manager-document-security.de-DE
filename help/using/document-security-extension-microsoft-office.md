@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
-source-git-commit: 3b6a686966fb8d006bed8cc4a4bf5eebe0dfb030
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Document Security Extension for Microsoft® Office verbessert LiveCycle Rights M
 
 Document Security stellt sicher, dass nur die von Ihnen autorisierten Personen auf Dateien zugreifen können, die Ihr geistiges Eigentum enthalten. Mit Document Security können Sie Dateien mithilfe von Vertraulichkeitsrichtlinien schützen. Eine *Richtlinie* ist eine Zusammenstellung von Informationen, die unter anderem Vertraulichkeitseinstellungen und eine Liste der berechtigten Benutzenden umfasst. Die Einstellungen, die Sie in einer Richtlinie angeben, bestimmen, wie ein Empfänger eine Datei nutzen darf, auf die Sie die Richtlinie anwenden. Sie können beispielsweise angeben, ob Empfänger Text drucken oder kopieren oder Änderungen speichern können.
 
-Document Security-Administratoren und -Benutzer erstellen Richtlinien. Administratoren erstellen Organisationsrichtlinien, die allen autorisierten Benutzern zur Verfügung stehen. Administratoren oder Richtliniensatzkoordinatoren können auch Gruppen von Richtlinien mit der Bezeichnung *Richtliniensätze* erstellen, die einer Untergruppe von Benutzern zur Verfügung stehen. Benutzer können eigene Richtlinien erstellen, die nur sie verwenden können. Admins, Richtliniensatzkoordinierende und Benutzende erstellen Richtlinien mithilfe der Document Security-Web-Seiten.
+Document Security-Administratoren und -Benutzer erstellen Richtlinien. Administratoren erstellen Organisationsrichtlinien, die allen autorisierten Benutzern zur Verfügung stehen. Administratoren oder Richtliniensatzkoordinatoren können auch Gruppen von Richtlinien mit der Bezeichnung *Richtliniensätze* erstellen, die einer Teilmenge von Benutzern zur Verfügung stehen. Benutzer können eigene Richtlinien erstellen, die nur sie verwenden können. Admins, Richtliniensatzkoordinierende und Benutzende erstellen Richtlinien mithilfe der Document Security-Web-Seiten.
 
 Die Richtlinien sind zwar in Document Security gespeichert, Sie können sie aber über Word, Excel oder PowerPoint auf Dateien anwenden. Wenn Sie eine Richtlinie auf eine Datei anwenden, werden die in der Datei enthaltenen Informationen durch die in der Richtlinie angegebenen Vertraulichkeitseinstellungen geschützt. Wenn Sie die richtliniengeschützte Datei verteilen, können nur autorisierte Empfängerinnen und Empfänger auf deren Inhalt zugreifen.
 
@@ -50,7 +50,7 @@ Wenn jemand versucht, eine richtliniengeschützte Datei zu öffnen, stellt Docum
 * Für die in der Richtlinie angegebene Gültigkeitsdauer.
 * Bis ein Administrator oder die Person, die die Richtlinie angewendet hat, entweder den Zugriff auf die Datei widerruft oder die Richtlinie ändert.
 
-  Wenn die Person, die die Richtlinie angewendet hat, die Richtlinie ändert oder den Zugriff auf die Datei widerruft, werden die Berechtigungen der Benutzerin bzw. des Benutzers für die Datei geändert oder entfernt, auch wenn diese Person die Datei bereits besitzt. Wenn die Datei selbst widerrufen wurde, kann der Benutzerin bzw. dem Benutzer eine URL zur Verfügung gestellt werden, um eine aktualisierte Kopie zu erhalten.
+  Wenn die Person, die die Richtlinie angewendet hat, die Richtlinie ändert oder den Zugriff auf die Datei widerruft, werden die Berechtigungen der Benutzerin bzw. des Benutzers für die Datei geändert oder entfernt, auch wenn diese Person die Datei bereits besitzt. Wenn die Datei selbst widerrufen wird, kann dem Benutzer eine URL bereitgestellt werden, um eine aktualisierte Kopie zu erhalten.
 
   Wenn die Richtlinie Offline-Zugriff zulässt, können Benutzende richtliniengeschützte Dateien während der festgelegten Offline-Nutzungsdauer ohne Internet- oder Netzwerkverbindung öffnen. Wenn die Offline-Nutzungsdauer endet, muss die Person online gehen und mit Document Security synchronisieren, wodurch eine neue Nutzungsdauer beginnt.
 
@@ -82,7 +82,7 @@ Die Ressourcen in dieser Tabelle können Ihnen dabei helfen, mehr über AEM Docu
   </tr>
   <tr>
    <td><p>Patch-Updates, technische Hinweise und zusätzliche Informationen zu dieser Produktversion</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/de?support-solution=General&amp;support-tab=home&amp;lang=de#support">Technischer Support für Experience Cloud</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home&amp;lang=de#support">Technischer Support für Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>
