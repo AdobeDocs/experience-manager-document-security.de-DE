@@ -423,7 +423,7 @@ Gehen Sie folgendermaßen vor:
 
 * Wählen Sie in Document Security Extension für Microsoft® Office 2010 und 2013 auf der Registerkarte **Document Security** die Option **Offline synchronisieren**.
 
-  ***Hinweis **: Die Schaltfläche „Offline synchronisieren“ ist auch verfügbar, wenn die Person keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch in diesem Fall wirkungslos.*
+  ***Hinweis &#x200B;**: Die Schaltfläche „Offline synchronisieren“ ist auch verfügbar, wenn die Person keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch in diesem Fall wirkungslos.*
 
 ### Arbeiten mit dynamischen Wasserzeichen {#working-with-dynamic-watermarks}
 
@@ -583,7 +583,7 @@ Wenn Sie eine richtliniengeschützte Datei in Word öffnen, können Informatione
 
 **Datei > Workflows** Während einer geschützten Sitzung nicht verfügbar.
 
-***Hinweis **: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
+***Hinweis &#x200B;**: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
 
 **Blogpost > Veröffentlichen** Während einer geschützten Sitzung nicht verfügbar.
 
@@ -655,7 +655,7 @@ Die folgenden Funktionen sind in den beschriebenen Situationen eingeschränkt:
 
 **Datei > Workflows** Während einer geschützten Sitzung nicht verfügbar.
 
-***Hinweis **: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
+***Hinweis &#x200B;**: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
 
 **Datei > Server > Menü für Datei-Server-Aufgaben** Während einer geschützten Sitzung nicht verfügbar.
 
@@ -717,7 +717,7 @@ Die folgenden Funktionen sind in den beschriebenen Situationen eingeschränkt:
 
 **Infos zum automatischen Wiederherstellen speichern** Während einer geschützten Sitzung nicht verfügbar.
 
-***Hinweis **: Wenn Sie versuchen, eine Zelle in einer richtliniengeschützten Datei ohne Berechtigung zu ändern, warnt Excel Sie fälschlicherweise, den Befehl „Blattschutz aufheben“ zu verwenden, um den Schutz zu entfernen.*
+***Hinweis &#x200B;**: Wenn Sie versuchen, eine Zelle in einer richtliniengeschützten Datei ohne Berechtigung zu ändern, warnt Excel Sie fälschlicherweise, den Befehl „Blattschutz aufheben“ zu verwenden, um den Schutz zu entfernen.*
 
 #### Einschränkungen für PowerPoint 2010 und PowerPoint 2013 {#powerpoint-2010-and-powerpoint-2013-restrictions}
 
