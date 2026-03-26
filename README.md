@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVIERT
 
-Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-document-security.en> migriert
+Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-document-security.de-DE> migriert
