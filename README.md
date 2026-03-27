@@ -1,10 +1,16 @@
 ---
-source-git-commit: 2b12d01aa269dd7a38ce067c496462d02a7884b5
+source-git-commit: 6cf19ed9439e5be5a4c2e2fa2458879f37c25b96
 workflow-type: tm+mt
-source-wordcount: '7'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-# ARCHIVIERT
+# Dokumentation zu AEM Document Security Extension für Microsoft Office
 
-Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-document-security.de-DE> migriert
+Das Repository für die Dokumentation zu AEM Document Security Extension for Microsoft Office.
+
+Ihre Beiträge zur Dokumentation sind willkommen. Siehe die folgenden Ressourcen:
+
+* [contributor.md](contributing.md) Einen Überblick darüber, wie Sie zur Dokumentation beitragen können.
+* [guidelines.md](guidelines.md) Einen Überblick darüber, was an Beiträgen erwartet wird und wie Sie Ihre Dokumentationsbeiträge zusammenstellen.
+* [code-of-conduct.md](code-of-conduct.md) Für einen Überblick über die Verhaltensstandards, die Adobe erwartet, wenn Sie zu dieser Dokumentation beitragen. Projekt.
