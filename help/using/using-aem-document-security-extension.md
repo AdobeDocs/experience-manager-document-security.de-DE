@@ -1,19 +1,23 @@
 ---
-title: Verwendung von AEM Document Security Extension für Microsoft® Office
+title: Verwenden der AEM Document Security Extension für Microsoft&reg; Office
 description: Sie können steuern, wie Empfängerinnen und Empfänger Ihre richtliniengeschützten Dateien verwenden, unabhängig davon, in welchem Ausmaß Sie sie verteilen. In diesem Dokument wird erläutert, wie Dateien geschützt werden und wie mit geschützten Dateien gearbeitet wird.
 uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
-source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
+TQID: https://experienceleague.adobe.com/cI8I72aByEI0tcij2o-QNkGjTxCztTa4uZFXsfwlMVc
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b2df949228acdc23ca7f2c55b72e62c1dba130b8
 workflow-type: tm+mt
-source-wordcount: '6139'
+source-wordcount: 6278
 ht-degree: 98%
 
 ---
 
-# Verwendung von AEM Document Security Extension für Microsoft® Office {#using-aem-document-security-extension-for-microsoft-office}
+# Verwendung von AEM Document Security Extension für Microsoft® Office{#using-aem-document-security-extension-for-microsoft-office}
 
 ## Schützen von Dateien mithilfe von AEM Document Security Extension {#usingaemdocumentsecurityextensiontoprotectfiles}
 
@@ -111,7 +115,7 @@ Führen Sie zum Aktivieren der erweiterten Authentifizierung mit der standardmä
 
    >[!NOTE]
    >
-   >Verwenden Sie einen vollständig qualifizierten Hostnamen in der URL. Adobe empfiehlt, das HTTPS-Protokoll zu verwenden. 
+   >Verwenden Sie einen vollständig qualifizierten Hostnamen in der URL. Adobe empfiehlt, das HTTPS-Protokoll zu verwenden.
 
    Jetzt ist AEM Forms Document Security so konfiguriert, dass die erweiterte Authentifizierung mit der standardmäßigen Startseiten-URL für AEM Forms verwendet wird.
 
@@ -286,7 +290,7 @@ Einige der Richtlinieneinstellungen, die für das Erstellen von Richtlinien auf 
    <td><p>Unterstützt.</p></td>
   </tr>
   <tr>
-   <td><p>Externe Autorisierungsanbieter</p></td>
+   <td><p>Externe Authentifizierungsanbieter</p></td>
    <td><p>Unterstützt.</p></td>
   </tr>
  </tbody>
@@ -423,7 +427,7 @@ Gehen Sie folgendermaßen vor:
 
 * Wählen Sie in Document Security Extension für Microsoft® Office 2010 und 2013 auf der Registerkarte **Document Security** die Option **Offline synchronisieren**.
 
-  ***Hinweis &#x200B;**: Die Schaltfläche „Offline synchronisieren“ ist auch verfügbar, wenn die Person keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch in diesem Fall wirkungslos.*
+  ***Hinweis **: Die Schaltfläche „Offline synchronisieren“ ist auch verfügbar, wenn die Person keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch in diesem Fall wirkungslos.*
 
 ### Arbeiten mit dynamischen Wasserzeichen {#working-with-dynamic-watermarks}
 
@@ -472,7 +476,7 @@ Document Security Extension für Microsoft® Office unterstützt die folgenden W
    <td><p>Unterstützt</p></td>
   </tr>
   <tr>
-   <td><p>Transparenz</p></td>
+   <td><p>Deckkraft</p></td>
    <td><p>Unterstützt</p></td>
   </tr>
  </tbody>
@@ -583,7 +587,7 @@ Wenn Sie eine richtliniengeschützte Datei in Word öffnen, können Informatione
 
 **Datei > Workflows** Während einer geschützten Sitzung nicht verfügbar.
 
-***Hinweis &#x200B;**: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
+***Hinweis **: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
 
 **Blogpost > Veröffentlichen** Während einer geschützten Sitzung nicht verfügbar.
 
@@ -655,7 +659,7 @@ Die folgenden Funktionen sind in den beschriebenen Situationen eingeschränkt:
 
 **Datei > Workflows** Während einer geschützten Sitzung nicht verfügbar.
 
-***Hinweis &#x200B;**: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
+***Hinweis **: Der Start eines Workflows in Word, Excel und PowerPoint 2010 ist nur in Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 und eigenständigen 2010-Versionen verfügbar.*
 
 **Datei > Server > Menü für Datei-Server-Aufgaben** Während einer geschützten Sitzung nicht verfügbar.
 
@@ -717,7 +721,7 @@ Die folgenden Funktionen sind in den beschriebenen Situationen eingeschränkt:
 
 **Infos zum automatischen Wiederherstellen speichern** Während einer geschützten Sitzung nicht verfügbar.
 
-***Hinweis &#x200B;**: Wenn Sie versuchen, eine Zelle in einer richtliniengeschützten Datei ohne Berechtigung zu ändern, warnt Excel Sie fälschlicherweise, den Befehl „Blattschutz aufheben“ zu verwenden, um den Schutz zu entfernen.*
+***Hinweis **: Wenn Sie versuchen, eine Zelle in einer richtliniengeschützten Datei ohne Berechtigung zu ändern, warnt Excel Sie fälschlicherweise, den Befehl „Blattschutz aufheben“ zu verwenden, um den Schutz zu entfernen.*
 
 #### Einschränkungen für PowerPoint 2010 und PowerPoint 2013 {#powerpoint-2010-and-powerpoint-2013-restrictions}
 
@@ -761,7 +765,7 @@ Die folgenden Funktionen sind in den beschriebenen Situationen eingeschränkt:
 
 **Ansicht > Präsentationsansichten > Bildschirmpräsentation** Eingeschränkt durch die Berechtigung „Ändern“. Wenn Änderungen nicht erlaubt sind, können Bildschirmpräsentationen nicht angezeigt werden, wenn die Datei geändert wurde.
 
-**Ansicht > Makros** Die Kopierberechtigung schränkt einige Makros ein, sodass sie nur verfügbar sind, wenn Kopiervorgänge zulässig sind.
+**Anzeigen > Makros** Die Kopierberechtigung schränkt einige Makros ein, sodass sie nur verfügbar sind, wenn das Kopieren zulässig ist.
 
 **Add-Ins** Können während einer geschützten Sitzung weder hinzugefügt noch entfernt werden.
 
@@ -769,7 +773,7 @@ Die folgenden Funktionen sind in den beschriebenen Situationen eingeschränkt:
 
 ## Verwendung von Authentifizierung-Drittanbietern {#use-third-party-authentication-providers}
 
-Sie können in AEM Forms Document Security externe Authentifizierungsanbieter verwenden. Mit diesen Authentifizierungsanbietern können Sie eine zusätzliche Zugriffsebene zu den geschützten Dokumenten hinzufügen. AEM Forms Document Security unterstützt die folgenden Workflows zur erweiterten Authentifizierung:
+Sie können externe Authentifizierungsanbieter in AEM Forms Document Security verwenden. Mit diesen Authentifizierungsanbietern können Sie eine zusätzliche Zugriffsebene zu den geschützten Dokumenten hinzufügen. AEM Forms Document Security unterstützt die folgenden Workflows zur erweiterten Authentifizierung:
 
 * Erweiterte Authentifizierung mit AEM Forms-Standard-URL
 * Erweiterte Authentifizierung mit einer benutzerdefinierten URL
