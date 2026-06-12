@@ -295,7 +295,7 @@ Einige der Richtlinieneinstellungen, die für das Erstellen von Richtlinien auf 
    <td><p>Unterstützt.</p></td>
   </tr>
   <tr>
-   <td><p>Externe Authentifizierungsanbieter</p></td>
+   <td><p>Externe Autorisierungsanbieter</p></td>
    <td><p>Unterstützt.</p></td>
   </tr>
  </tbody>
@@ -481,7 +481,7 @@ Document Security Extension für Microsoft® Office unterstützt die folgenden W
    <td><p>Unterstützt</p></td>
   </tr>
   <tr>
-   <td><p>Deckkraft</p></td>
+   <td><p>Transparenz</p></td>
    <td><p>Unterstützt</p></td>
   </tr>
  </tbody>

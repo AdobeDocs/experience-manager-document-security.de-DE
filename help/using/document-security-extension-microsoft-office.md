@@ -93,7 +93,7 @@ Die Ressourcen in dieser Tabelle können Ihnen dabei helfen, mehr über AEM Docu
   </tr>
   <tr>
    <td><p>Patch-Updates, technische Hinweise und zusätzliche Informationen zu dieser Produktversion</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/de?lang=de&support-solution=General&support-tab=home#support">Technischer Support für Experience Cloud</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/de?support-solution=General&support-tab=home&lang=de#support">Technischer Support für Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>
